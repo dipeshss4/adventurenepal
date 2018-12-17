@@ -50,39 +50,40 @@
         <div class="home_background" style="background-image:url(images/home.jpg)"></div>
         <div class="home_content">
             <div class="home_content_inner">
-                <div class="home_text_large">discover</div>
-                <div class="home_text_small">Discover new worlds</div>
+                {{--<div class="home_text_large">discover</div>--}}
+                {{--<div class="home_text_small">Discover new worlds</div>--}}
+                @include('frontend.pages.find.find')
             </div>
         </div>
     </div>
 
     <!-- Find Form -->
 
-    @include('frontend.pages.find.find')
+
 
     <!-- Top Destinations -->
     @include('frontend.pages.topdestination.topdestination')
 
 
     <!-- Last -->
-    @include('frontend.pages.video.video')
 
-
-    <!-- Video -->
 
 
 
     <!-- Popular -->
     @include('frontend.pages.popular.popular')
 
+    </br></br></br>
+    @include('frontend.pages.video.video')
 
 
+    <!-- Video -->
     <!-- Special -->
     @include('frontend.pages.special.special')
 
 
     <!-- Newsletter -->
-    @include('frontend.pages.newsletter.newsletter')
+    {{--@include('frontend.pages.newsletter.newsletter')--}}
 
 
 @endsection

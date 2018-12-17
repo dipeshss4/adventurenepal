@@ -43,19 +43,19 @@
                             <ul class="main_nav_list">
                                 <li class="main_nav_item active"><a href="#">Home</a></li>
                                 <li class="main_nav_item"><a href="about.html">About us</a></li>
-                                <li class="main_nav_item"><a href="offers.html">Offers</a></li>
-                                <li class="main_nav_item"><a href="news.html">News</a></li>
+                                <li class="main_nav_item"><a href="services.html">Services</a></li>
+                                <li class="main_nav_item"><a href="blogs.html">Blogs</a></li>
                                 <li class="main_nav_item"><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
 
                         <!-- Search -->
-                        <div class="search">
-                            <form action="#" class="search_form">
-                                <input type="search" name="search_input" class="search_input ctrl_class" required="required" placeholder="Keyword">
-                                <button type="submit" class="search_button ml-auto ctrl_class"><img src="images/search.png" alt=""></button>
-                            </form>
-                        </div>
+                        {{--<div class="search">--}}
+                            {{--<form action="#" class="search_form">--}}
+                                {{--<input type="search" name="search_input" class="search_input ctrl_class" required="required" placeholder="Keyword">--}}
+                                {{--<button type="submit" class="search_button ml-auto ctrl_class"><img src="images/search.png" alt=""></button>--}}
+                            {{--</form>--}}
+                        {{--</div>--}}
 
                         <!-- Hamburger -->
                         <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
