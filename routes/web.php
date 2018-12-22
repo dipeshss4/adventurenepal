@@ -22,6 +22,8 @@ Route::group(
     function ()
     {
         Route::resource('home','frontend/HomeController');
+        Route::resource('about' ,'frontend\SettingController');
+        Route::resource('contact','frontend\ContactController');
     }
 );
 

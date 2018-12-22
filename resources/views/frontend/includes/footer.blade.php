@@ -30,7 +30,7 @@
 
                         <!-- Footer Latest Post -->
                         <div class="footer_latest_item">
-                            <div class="footer_latest_image"><img src="images/latest_1.jpg" alt="https://unsplash.com/@peecho"></div>
+                            <div class="footer_latest_image"><img src="{{URL::to('images/latest_1.jpg')}}" alt="https://unsplash.com/@peecho"></div>
                             <div class="footer_latest_item_content">
                                 <div class="footer_latest_item_title"><a href="news.html">Brazil Summer</a></div>
                                 <div class="footer_latest_item_date">Jan 09, 2018</div>
@@ -39,7 +39,7 @@
 
                         <!-- Footer Latest Post -->
                         <div class="footer_latest_item">
-                            <div class="footer_latest_image"><img src="images/latest_2.jpg" alt="https://unsplash.com/@sanfrancisco"></div>
+                            <div class="footer_latest_image"><img src="{{URL::to('images/latest_2.jpg')}}" alt="https://unsplash.com/@sanfrancisco"></div>
                             <div class="footer_latest_item_content">
                                 <div class="footer_latest_item_title"><a href="news.html">A perfect vacation</a></div>
                                 <div class="footer_latest_item_date">Jan 09, 2018</div>
@@ -73,14 +73,15 @@
 </footer>
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="js/custom.js"></script>
+
+<script src="{{URL::to('js/jquery-3.2.1.min.js')}}"></script>
+<script src="{{URL::to('styles/bootstrap4/popper.js')}}"></script>
+<script src="{{URL::to('styles/bootstrap4/bootstrap.min.js')}}"></script>
+<script src="{{URL::to('plugins/OwlCarousel2-2.2.1/owl.carousel.js')}}"></script>
+<script src="{{URL::to('plugins/easing/easing.js')}}"></script>
+<script src="{{URL::to('plugins/parallax-js-master/parallax.min.js')}}"></script>
+<script src="{{URL::to('plugins/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
+<script src="{{URL::to('js/custom.js')}}"></script>
 </body>
 </html>
     @endsection
