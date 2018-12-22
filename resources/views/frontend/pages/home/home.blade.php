@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="home">
-        <div class="home_background" style="background-image:url(images/home.jpg)"></div>
+        <div class="home_background" style="background-image:url(images/banner.jpeg)"></div>
         <div class="home_content">
             <div class="home_content_inner">
                 {{--<div class="home_text_large">discover</div>--}}

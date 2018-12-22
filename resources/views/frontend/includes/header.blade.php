@@ -3,7 +3,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Destino</title>
+    <title>First Adventure Nepal</title>
+    <link rel="icon"
+          type="image/jpg"
+          href="images/firstgroup.jpg">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Destino project">
@@ -33,9 +36,9 @@
                         <!-- Logo -->
                         <div class="logo_container">
                             <div class="logo">
-                                <div>destino</div>
-                                <div>travel agency</div>
-                                <div class="logo_image"><img src="images/logo.png" alt=""></div>
+                                {{--<div>First Adventure Nepal</div>--}}
+                                {{--<div>travel agency</div>--}}
+                                <div class="logo_image"><img src="images/fulllogo.png" alt=""></div>
                             </div>
                         </div>
 
