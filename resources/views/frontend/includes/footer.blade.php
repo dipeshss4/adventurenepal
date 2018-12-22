@@ -15,7 +15,7 @@
                         </div>
                     </div>
                     <div class="footer_about_text">
-                        <h4>About Us</h4>this Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar sed mauris eget tincidunt. Sed lectus nulla, tempor vel eleifend quis, tempus rut rum metus. Pellentesque ultricies enim eu quam fermentum hendrerit.</div>
+                        <h4>About Us</h4>First Adventure Nepal, unit of First Group Nepal is a travel agency company established to promote tourism in Nepal. We are dedicated to provide excellent and personalized service. </div>
                     <div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>

@@ -1348,20 +1348,20 @@ section
 }
 .special .owl-item.center .special_item_background::after
 {
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(254, 67, 91, 0.83);
-	content: '';
-	z-index: 0;
-	-webkit-transition: all 500ms 100ms ease;
-	-moz-transition: all 500ms 100ms ease;
-	-ms-transition: all 500ms 100ms ease;
-	-o-transition: all 500ms 100ms ease;
-	transition: all 500ms 100ms ease;
+	/*display: block;*/
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*left: 0;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*background: rgba(254, 67, 91, 0.83);*/
+	/*content: '';*/
+	/*z-index: 0;*/
+	/*-webkit-transition: all 500ms 100ms ease;*/
+	/*-moz-transition: all 500ms 100ms ease;*/
+	/*-ms-transition: all 500ms 100ms ease;*/
+	/*-o-transition: all 500ms 100ms ease;*/
+	/*transition: all 500ms 100ms ease;*/
 }
 .special_slider_nav
 {
