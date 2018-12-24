@@ -12,5 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend.pages.home.home');
 });
+
+Route::group(
+    [
+        'prefix'        =>'frontend'
+    ],
+    function ()
+    {
+        Route::resource('home','frontend/HomeController');
+        Route::resource('about' ,'frontend\SettingController');
+        Route::resource('contact','frontend\ContactController');
+    }
+);
+
