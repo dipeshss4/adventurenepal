@@ -15,6 +15,22 @@ Route::get('/', function () {
     return view('frontend.pages.home.home');
 });
 
+
+
+Route::group(
+       [
+           'prefix'     =>'admin'
+       ],
+        function()
+        {
+            Route::get('home', function () {
+                return view('backend.pages.dashboard.dashboard');
+            });
+//            Route::Resource('home','backend/AdminController');
+
+        }
+);
+
 Route::group(
     [
         'prefix'        =>'frontend'
@@ -25,5 +41,6 @@ Route::group(
         Route::resource('about' ,'frontend\SettingController');
         Route::resource('contact','frontend\ContactController');
     }
+
 );
 
