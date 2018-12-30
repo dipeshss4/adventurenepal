@@ -41,7 +41,7 @@
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
-	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: #000000;
 }
 body
 {
@@ -435,7 +435,7 @@ section
 }
 .logo_image img
 {
-	max-width: 100%;
+	max-width: 310%;
 }
 
 /*********************************
@@ -951,31 +951,31 @@ section
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 52px;
-	color: #FFFFFF;
+	color: #000;
 	border: solid 2px rgba(255,255,255,0.5);
-	background: transparent;
+	background: #ffffff;
 }
 .find_item:first-child
 {
-	width: 31.413%;
+	width: 23%;
 }
 .find_item:nth-child(2)
 {
-	width: 31.413%;
+	width: 23%;
 }
 .find_item:nth-child(3)
 {
-	width: 10.122%;
+	width: 23%;
 }
 .find_item:nth-child(4)
 {
-	width: 10.122%;
+	width: 16%;
 }
 .find_item div
 {
 	font-size: 14px;
 	font-weight: 400;
-	color: #FFFFFF;
+	color: #000000;
 	margin-bottom: 7px;
 }
 .dropdown_item_select

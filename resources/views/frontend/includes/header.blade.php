@@ -11,7 +11,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Destino project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" type="text/css" href="{{URL::to('styles/bootstrap4/bootstrap.min.css')}} ">
     <link href="{{URL::to('plugins/font-awesome-4.7.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="{{URL::to('plugins/OwlCarousel2-2.2.1/owl.carousel.css')}}">
@@ -24,6 +23,10 @@
     <link rel="stylesheet" type="text/css" href="{{URL::to('styles/contact_responsive.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL::to('styles/about_styles.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL::to('styles/about_responsive.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::to('styles/news_styles.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::to('styles/news_responsive.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::to('styles/style.css')}}">
+
 </head>
 <body>
 

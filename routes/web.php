@@ -15,15 +15,26 @@ Route::get('/', function () {
     return view('frontend.pages.home.home');
 });
 
+
+
+
+
 Route::group(
     [
         'prefix'        =>'frontend'
     ],
     function ()
     {
-        Route::resource('home','frontend/HomeController');
+        Route::resource('home','frontend\HomeController');
         Route::resource('about' ,'frontend\SettingController');
         Route::resource('contact','frontend\ContactController');
+        Route::resource('information','frontend\InformationController');
+//        Route::get('information','frontend\InformationController@index');
+
+
+
+
+
     }
 );
 

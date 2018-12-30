@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col">
                 <div class="section_title text-center">
-                    <h2>Popular destinations in 2018</h2>
-                    <div>take a look at these offers</div>
+                    <h2>Places to visit</h2>
+
                 </div>
             </div>
         </div>
@@ -14,88 +14,88 @@
 
                     <!-- Popular Item -->
                     <div class="popular_item">
-                        <a href="offers.html">
-                            <img src="images/popular_1.jpg" alt="image by Egzon Bytyqi">
+                        <a href="#">
+                            <img src="{{URL::to('images/package_kalinchok.jpg')}}" alt="image by Egzon Bytyqi">
                             <div class="popular_item_content">
-                                <div class="popular_item_price">From $890</div>
-                                <div class="popular_item_title">Turkey</div>
+                                <div class="popular_item_price">From Rs. 2500</div>
+                                <div class="popular_item_title">Kalinchok</div>
                             </div>
                         </a>
                     </div>
 
                     <!-- Popular Item -->
                     <div class="popular_item">
-                        <a href="offers.html">
-                            <img src="images/popular_2.jpg" alt="https://unsplash.com/@michael75">
+                        <a href="#">
+                            <img src="{{URL::to('images/package_rara.jpg')}}" alt="https://unsplash.com/@michael75">
                             <div class="popular_item_content">
-                                <div class="popular_item_price">From $890</div>
-                                <div class="popular_item_title">Hawai</div>
+                                <div class="popular_item_price">From Rs. 15000</div>
+                                <div class="popular_item_title">Rara</div>
                             </div>
                         </a>
                     </div>
 
                     <!-- Popular Item -->
                     <div class="popular_item">
-                        <a href="offers.html">
-                            <img src="images/popular_3.jpg" alt="https://unsplash.com/@sapegin">
+                        <a href="#">
+                            <img src="{{URL::to('images/package_kathmandu.jpg')}}" alt="https://unsplash.com/@sapegin">
                             <div class="popular_item_content">
-                                <div class="popular_item_price">From $890</div>
-                                <div class="popular_item_title">Ireland</div>
+                                <div class="popular_item_price">From Rs. 1500</div>
+                                <div class="popular_item_title">Kathmandu</div>
                             </div>
                         </a>
                     </div>
 
                     <!-- Popular Item -->
                     <div class="popular_item">
-                        <a href="offers.html">
-                            <img src="images/popular_4.jpg" alt="https://unsplash.com/@kensuarez">
+                        <a href="#">
+                            <img src="{{URL::to('images/package_lumbini.jpg')}}" alt="https://unsplash.com/@kensuarez">
                             <div class="popular_item_content">
-                                <div class="popular_item_price">From $890</div>
-                                <div class="popular_item_title">Thailand</div>
+                                <div class="popular_item_price">From Rs. 4500</div>
+                                <div class="popular_item_title">Lumbini</div>
                             </div>
                         </a>
                     </div>
 
                     <!-- Popular Item -->
                     <div class="popular_item">
-                        <a href="offers.html">
-                            <img src="images/popular_5.jpg" alt="https://unsplash.com/@noahbasle">
+                        <a href="#">
+                            <img src="{{URL::to('images/package_ilam.jpeg')}}" alt="https://unsplash.com/@noahbasle">
                             <div class="popular_item_content">
-                                <div class="popular_item_price">From $890</div>
-                                <div class="popular_item_title">Croatia</div>
+                                <div class="popular_item_price">From Rs. 3000</div>
+                                <div class="popular_item_title">Ilam</div>
                             </div>
                         </a>
                     </div>
 
                     <!-- Popular Item -->
                     <div class="popular_item">
-                        <a href="offers.html">
-                            <img src="images/popular_6.jpg" alt="https://unsplash.com/@seb">
+                        <a href="#">
+                            <img src="{{URL::to('images/package_pokhara.jpg')}}" alt="https://unsplash.com/@seb">
                             <div class="popular_item_content">
-                                <div class="popular_item_price">From $890</div>
-                                <div class="popular_item_title">Bali</div>
+                                <div class="popular_item_price">From Rs. 3000</div>
+                                <div class="popular_item_title">Pokhara</div>
                             </div>
                         </a>
                     </div>
 
                     <!-- Popular Item -->
                     <div class="popular_item">
-                        <a href="offers.html">
-                            <img src="images/popular_7.jpg" alt="https://unsplash.com/@nevenkrcmarek">
+                        <a href="#">
+                            <img src="{{URL::to('images/package_gosaikunda.jpg')}}" alt="https://unsplash.com/@nevenkrcmarek">
                             <div class="popular_item_content">
-                                <div class="popular_item_price">From $890</div>
-                                <div class="popular_item_title">France</div>
+                                <div class="popular_item_price">From Rs. 7500</div>
+                                <div class="popular_item_title">Gosaikunda</div>
                             </div>
                         </a>
                     </div>
 
                     <!-- Popular Item -->
                     <div class="popular_item">
-                        <a href="offers.html">
-                            <img src="images/popular_8.jpg" alt="https://unsplash.com/@bergeryap87">
+                        <a href="#">
+                            <img src="{{URL::to('images/package_tilicho.jpg')}}" alt="https://unsplash.com/@bergeryap87">
                             <div class="popular_item_content">
-                                <div class="popular_item_price">From $890</div>
-                                <div class="popular_item_title">Vietnam</div>
+                                <div class="popular_item_price">From Rs. 15000</div>
+                                <div class="popular_item_title">Tilicho</div>
                             </div>
                         </a>
                     </div>
