@@ -54,7 +54,7 @@
                             <ul class="main_nav_list">
                                 <li class="main_nav_item active"><a href="{{route('home.index')}}">Home</a></li>
                                 <li class="main_nav_item"><a href="{{route('about.index')}}">About us</a></li>
-                                <li class="main_nav_item"><a href="#">Services</a></li>
+                                <li class="main_nav_item"><a href="{{route('services.index')}}">Services</a></li>
                                 <li class="main_nav_item"><a href="#">Blogs</a></li>
                                 <li class="main_nav_item"><a href="{{route('contact.index')}}">Contact</a></li>
                             </ul>
@@ -93,11 +93,11 @@
                     </form>
                 </div>
                 <ul class="menu_list menu_mm">
-                    <li class="menu_item menu_mm"><a href="#">Home</a></li>
-                    <li class="menu_item menu_mm"><a href="about.html">About us</a></li>
-                    <li class="menu_item menu_mm"><a href="offers.html">Offers</a></li>
-                    <li class="menu_item menu_mm"><a href="news.html">News</a></li>
-                    <li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
+                    <li class="menu_item menu_mm"><a href="{{route('home.index')}}">Home</a></li>
+                    <li class="menu_item menu_mm"><a href="{{route('about.index')}}">About us</a></li>
+                    <li class="menu_item menu_mm"><a href="{{route('services.index')}}">Services</a></li>
+                    <li class="menu_item menu_mm"><a href="#">Blogs</a></li>
+                    <li class="menu_item menu_mm"><a href="{{route('contact.index')}}">Contact</a></li>
                 </ul>
 
                 <!-- Menu Social -->

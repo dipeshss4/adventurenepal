@@ -29,6 +29,8 @@ Route::group(
         Route::resource('about' ,'frontend\SettingController');
         Route::resource('contact','frontend\ContactController');
         Route::resource('information','frontend\InformationController');
+        Route::resource('services','frontend\ServicesController');
+
 //        Route::get('information','frontend\InformationController@index');
 
 

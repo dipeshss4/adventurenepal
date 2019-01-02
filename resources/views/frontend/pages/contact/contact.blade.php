@@ -23,7 +23,7 @@
                                 <ul>
                                     <li>Address: Chabahil, Kathmandu</li>
                                     <li>Phone: 9801111901</li>
-                                    <li>Email: firstadventurenepal@gmail.com</li>
+                                    <li>Email: infofirstadventurenepal.com</li>
                                 </ul>
                             </div>
                             <div class="contact_info_social">
