@@ -6,7 +6,11 @@
     <title>First Adventure Nepal</title>
     <link rel="icon"
           type="image/jpg"
+<<<<<<< HEAD
           href="images/firstgroup.jpg">
+=======
+          href="{{URL::to('images/logo.png')}}">
+>>>>>>> d146bd114dee7bff3bcc280306425e51b2ce3297
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Destino project">
@@ -20,6 +24,13 @@
     <link href="{{URL::to('plugins/magnific-popup/magnific-popup.css')}}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="{{URL::to('styles/main_styles.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL::to('styles/responsive.css')}}">
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" type="text/css" href="{{URL::to('styles/contact_styles.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::to('styles/contact_responsive.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::to('styles/about_styles.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::to('styles/about_responsive.css')}}">
+>>>>>>> d146bd114dee7bff3bcc280306425e51b2ce3297
 </head>
 <body>
 
@@ -38,17 +49,27 @@
                             <div class="logo">
                                 {{--<div>First Adventure Nepal</div>--}}
                                 {{--<div>travel agency</div>--}}
+
                                 <div class="logo_image"><img src="images/fulllogo.png" alt=""></div>
+
+                                <div class="logo_image"><img src="{{URL::to('images/fulllogo.png')}}" alt=""></div>
+
                             </div>
                         </div>
 
                         <!-- Main Navigation -->
                         <nav class="main_nav ml-auto">
                             <ul class="main_nav_list">
+
                                 <li class="main_nav_item active"><a href="#">Home</a></li>
                                 <li class="main_nav_item"><a href="{{route('about.index')}}">About us</a></li>
                                 <li class="main_nav_item"><a href="services.html">Services</a></li>
                                 <li class="main_nav_item"><a href="blogs.html">Blogs</a></li>
+
+                                <li class="main_nav_item active"><a href="{{route('home.index')}}">Home</a></li>
+                                <li class="main_nav_item"><a href="{{route('about.index')}}">About us</a></li>
+                                <li class="main_nav_item"><a href="#">Services</a></li>
+                                <li class="main_nav_item"><a href="#">Blogs</a></li>
                                 <li class="main_nav_item"><a href="{{route('contact.index')}}">Contact</a></li>
                             </ul>
                         </nav>

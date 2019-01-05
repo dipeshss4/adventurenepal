@@ -2830,7 +2830,11 @@
 	};
 
 	/**
+<<<<<<< HEAD
 	 * Initializes the layout of the plugin and extends the carousel.
+=======
+	 * Initializes the layouts of the plugin and extends the carousel.
+>>>>>>> d146bd114dee7bff3bcc280306425e51b2ce3297
 	 * @protected
 	 */
 	Navigation.prototype.initialize = function() {

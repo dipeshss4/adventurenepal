@@ -1,6 +1,7 @@
 @extends('frontend.layouts.master')
 @section('content')
 
+<<<<<<< HEAD
     <!-- Home -->
 
     <div class="home">
@@ -24,12 +25,16 @@
             </div>
         </div>
     </div>
+=======
+
+>>>>>>> d146bd114dee7bff3bcc280306425e51b2ce3297
 
     <!-- Contact -->
 
     <div class="contact">
         <div class="container">
             <div class="row">
+<<<<<<< HEAD
                 <div class="col">
                     <div class="contact_title">Get in touch</div>
                     <div class="contact_subtitle">say hello</div>
@@ -48,6 +53,24 @@
                                     <li>Address: 1481 Creekside Lane Avila Beach, CA 93424</li>
                                     <li>Phone: +53 345 7953 32453</li>
                                     <li>Email: miloThemes@gmail.com</li>
+=======
+                    <div class="col">
+                        <div class="section_title text-center">
+                            <h2>Contact us</h2>
+                            {{--<div>take a look at our story</div>--}}
+                        </div>
+                    </div>
+            </div>
+            <div class="row contact_content">
+                <div class="col-lg-5">
+                    <div class="contact_info">
+                        <div class="contact_info_container">
+                            <div class="contact_info_content">
+                                <ul>
+                                    <li>Address: Chabahil, Kathmandu</li>
+                                    <li>Phone: 9801111901</li>
+                                    <li>Email: firstadventurenepal@gmail.com</li>
+>>>>>>> d146bd114dee7bff3bcc280306425e51b2ce3297
                                 </ul>
                             </div>
                             <div class="contact_info_social">
