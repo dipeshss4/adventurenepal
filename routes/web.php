@@ -10,15 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('frontend.pages.home.home');
-});
+$destination=\App\destination::all();
+Route::get('/','frontend\HomeController@index');
 
 
 
 Route::group(
        [
+           'middleware'  =>'auth',
            'prefix'     =>'admin'
        ],
         function()
@@ -26,6 +25,8 @@ Route::group(
             Route::get('home', function () {
                 return view('backend.pages.dashboard.dashboard');
             });
+            Route::resource('destination','backend\DestinationController');
+
 //            Route::Resource('home','backend/AdminController');
 
         }
@@ -44,3 +45,7 @@ Route::group(
 
 );
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

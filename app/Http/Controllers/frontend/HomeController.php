@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\frontend;
 
+use App\destination;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -14,7 +15,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('frontend.pages.home.home');
+        $destination = destination::where('is_popular',1)->get();
+        return view('frontend.pages.home.home',compact('destination'));
+
     }
 
     /**

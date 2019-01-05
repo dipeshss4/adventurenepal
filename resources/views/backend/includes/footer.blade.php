@@ -5,6 +5,7 @@
 <!-- container-scroller -->
 
 <!-- plugins:js -->
+
 <script src="{{URL::to('vendors/js/vendor.bundle.base.js')}}"></script>
 <script src="{{URL::to('vendors/js/vendor.bundle.addons.js')}}"></script>
 <!-- endinject -->
