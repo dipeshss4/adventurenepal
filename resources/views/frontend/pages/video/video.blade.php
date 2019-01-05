@@ -1,6 +1,6 @@
 <div class="video_section d-flex flex-column align-items-center justify-content-center">
     <!-- Image by https://unsplash.com/@peecho -->
-    <div class="video_background parallax-window" data-parallax="scroll" data-image-src="images/video.jpg" data-speed="0.8"></div>
+    <div class="video_background parallax-window" data-parallax="scroll" data-image-src="{{URL::to('images/video.jpg')}}" data-speed="0.8"></div>
     <div class="video_content">
         <div class="video_title"></div>
         <div class="video_subtitle"></div>
