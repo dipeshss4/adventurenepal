@@ -26,7 +26,7 @@ Route::group(
                 return view('backend.pages.dashboard.dashboard');
             });
             Route::resource('destination','backend\DestinationController');
-
+            Route::resource('gallery','backend\DestinationController');
 //            Route::Resource('home','backend/AdminController');
 
         }
